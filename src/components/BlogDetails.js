@@ -1,6 +1,8 @@
 import { useHistory, useParams } from 'react-router-dom'
 import useFetch from '../useFetch'
 
+import { Button, Col, Container, Row } from 'react-bootstrap'
+
 const BlogDetails = () => {
 
     const  { id } = useParams()
@@ -17,18 +19,26 @@ const BlogDetails = () => {
     }
 
     return (
+        <Container>
         <div className="blog-details">
             { isPending && <div>Loading ...</div> }      
             { error && <div>{error}</div> }
             { blog && (
                 <article>
-                    <h2>{ blog.title }</h2>
-                    <p>Written by { blog.author }</p>
+                    <Row>
+                        <Col>
+                            <h2>{ blog.title }</h2>
+                        </Col>
+                        <Col md={{ span: 4, offset: 4 }}>
+                            <Button variant="danger" onClick={ handleClick }>Delete</Button>
+                        </Col>
+                    </Row>
+                    <p className="mb-5">Written by { blog.author }</p>
                     <div>{ blog.body }</div>
-                    <button onClick={ handleClick }>Delete</button>
                 </article>
             )}     
         </div>
+        </Container>
     )
 }
 
