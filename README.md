@@ -1,6 +1,6 @@
-# React Dojo Blog
+# React Dojo Blog - Version 2.0
 
-This is my second react project in my process of learning React. It is the 1.0 version, and in the 2.0 I'll go further by customizing the previous options and addind more and also change the css and try to integrate [react-bootstrap](https://react-bootstrap.github.io/). Hope you'll enjoy watching this project 😁😉
+I worked on the integration of [react-bootstrap](https://react-bootstrap.github.io/) in the version 2.0 of this project and I am quite so happy to see how I learn how to. In the version 3.0, I'll still go further by adding new features such as update a post an imroving the UI. Hope you'll enjoy watching this project 😁😉, let me know by letting a ⭐
 
 ## Available Scripts
 
@@ -23,4 +23,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm json-server --watch data/json.db --port 8000`
+
+I run json-server on port 8000 because port 3000 is already busy running the project. You can choose another port but don't forget to specify the port number.'
 
