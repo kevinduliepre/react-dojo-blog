@@ -1,5 +1,3 @@
-import { Container } from 'react-bootstrap'
-
 import useFetch from '../../useFetch'
 import BlogList from '../BlogList'
 
@@ -9,15 +7,13 @@ function Home() {
     
 
     return (
-        <Container>
+        <div>
             <div className="home">
                 { error && <div>{ error } </div>}
                 { isPending && <div>Loading...</div>}
-                { blogs && 
-                        <BlogList blogs={ blogs } title=" All Blogs " />
-                }
+                {blogs && <BlogList blogs={ blogs } title=" All Blogs " />}
             </div>
-        </Container>
+        </div>
     )
 }
 
