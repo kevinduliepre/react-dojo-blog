@@ -1,8 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
-import Navigation from './components/Navigation'
+import Navbar from './components/Navbar'
 import BlogDetails from './components/BlogDetails'
 
 // Pages
@@ -16,7 +15,7 @@ const App = () => {
     <Router>
       <div className="App">
 
-        <Navigation />
+        <Navbar />
         <div className="content">
           <Switch>
             <Route exact path="/">
