@@ -1,0 +1,10 @@
+.app {
+  height: 100vh;
+  padding-top: 2rem;
+  /* background: #b3870e; */
+}
+
+.content {
+  width: 75%;
+  margin: 0 auto;
+}
