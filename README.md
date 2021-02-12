@@ -1,6 +1,6 @@
-# React Dojo Blog - Version 2.0
+# React Dojo Blog - Version 2.0.1
 
-I worked on the integration of [react-bootstrap](https://react-bootstrap.github.io/) in the version 2.0 of this project and I am quite so happy to see how I learn how to. In the version 3.0, I'll still go further by adding new features such as update a post an imroving the UI. Hope you'll enjoy watching this project 😁😉, let me know by letting a ⭐
+I worked on the integration of [react-bootstrap](https://react-bootstrap.github.io/) in the version 2.0 of this project and I am quite so happy to see how I learn how to. In the version 3.0, I'll still go further by adding new features such as update a post an improving the UI. Hope you'll enjoy watching this project 😁😉, let me know by letting a ⭐
 
 ## Available Scripts
 
