@@ -5,7 +5,45 @@
   font-family: "Poppins";
   color: #333;
 }
+
+.app {
+  /* background: #fafafa; */
+  height: 90vh;
+  padding-top: 2rem;
+}
+
 .navbar {
+  max-width: 1250px;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  max-width: 990px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.home {
+  padding: 1rem;
+  background: #fafafa;
+}
+
+.blog-list {
+  margin: 0 auto;
+  /* background: #000; */
+}
+
+.author {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.trash {
+  stroke: #fff;
+}
+/* .navbar { 
   padding: 20px;
   display: flex;
   align-items: center;
@@ -31,10 +69,10 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
-}
+} */
 
 /* blog previews / list */
-.blog-preview {
+/* .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
@@ -52,9 +90,9 @@
 
 .blog-preview a {
   text-decoration: none;
-}
+} */
 /* blog details page */
-.blog-details h2 {
+/* .blog-details h2 {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 10px;
@@ -69,10 +107,10 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-}
+} */
 
 /* create new blog form */
-.create {
+/* .create {
   max-width: 400px;
   margin: 0 auto;
   text-align: center;
@@ -103,4 +141,4 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
-}
+} */

@@ -1,4 +1,18 @@
 {
+  "categories": [
+    {
+      "id": "1",
+      "description": "Technologie"
+    },
+    {
+      "id": "2",
+      "description": "Science"
+    },
+    {
+      "id": "3",
+      "description": "Nature"
+    }
+  ],
   "blogs": [
     {
       "title": "My First Blog",

@@ -8,13 +8,15 @@ import BlogDetails from './components/BlogDetails'
 // Pages
 import Home from './components/pages/Home'
 import Create from './components/pages/Create'
+import Login from './components/pages/Login'
+import Signup from './components/pages/Signup'
 import NotFound from './components/pages/NotFound'
 
 const App = () => {
 
   return (
     <Router>
-      <div className="App">
+      <div className="app">
 
         <Navigation />
         <div className="content">
@@ -27,6 +29,12 @@ const App = () => {
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />
+            </Route>
+            <Route path="/login">
+              <Login />
+            </Route>
+            <Route path="/signup">
+              <Signup />
             </Route>
             <Route path="*">
               <NotFound />

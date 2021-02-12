@@ -34,7 +34,7 @@ const Create = () => {
     }
 
     return (
-        <div className="container" style={{width:'500px'}}>
+        <div className="create" style={{width:'500px'}}>
             <h2 className='mb-4'>Add a new Content</h2>
             <Form onSubmit={ handleSubmit } className='w-100' >
                 <Form.Group>
